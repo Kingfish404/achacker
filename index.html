@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,14 +10,36 @@
     * {
         padding: 0;
         margin: 0;
+        border: none;
+    }
+
+    html,
+    body {
         height: 100%;
         width: 100%;
-        border: none;
+    }
+
+    #main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        user-select: none;
+        text-align: center;
     }
 </style>
 
 <body>
-    <iframe src="http://study.kingfish404.cn/"></iframe>
+    <div id="main">
+        <div class="text">
+            <h1>Achacker</h1>
+            <p>Just a simple website</p>
+        </div>
+    </div>
 </body>
 
 </html>
